@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>TRIVIA GAME</title>
+	
+	<link href="assets/style.css" rel="stylesheet" type="text/css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"> </script>
+</head>
+<body>
+
+<h1> Geography Quiz </h1>
+
+<button id="start">Start</button>
+
+
+<div id="container">
+  <div id="timer">Timer</div>
+<br>
+    <form id = "form1" >
+      <ul>
+      <h3> 1. Which city in the world is known as the 'City of Light'? </h3>
+        <input type="radio" name="question0" class="answerOne" value="A">New York</input>
+        <br />
+        <input type="radio" name="question0" class="answerOne" value="B">Paris</input>
+        <br />
+        <input type="radio" name="question0" class="answerOne" value="C">Dubai</input>
+        <br />
+        <input type="radio" name="question0" class="answerOne" value="D">Jerusalem</input>
+        <br />
+      </ul>
+       <br>
+     
+      <ul>
+      <h3> 2.  How many boroughs make up New York City? </h3 >
+        <input type="radio" name="question1" class="answerTwo" value="A">3</input>
+        <br />
+        <input type="radio" name="question1" class="answerTwo" value="B">4</input>
+        <br />
+        <input type="radio" name="question1" class="answerTwo" value="C">5</input>
+        <br />
+        <input type="radio" name="question1" class="answerTwo" value="D">6</input>
+        <br />
+      </ul>
+      <br>
+     
+      <ul>
+      <h3> 3.  What city is the capital of China? </h3 >
+        <input type="radio" name="question2" class="answerThree" value="A">Shanghai</input>
+        <br />
+        <input type="radio" name="question2" class="answerThree" value="B">Hong Kong</input>
+        <br />
+        <input type="radio" name="question2" class="answerThree" value="C">Jinan</input>
+        <br />
+        <input type="radio" name="question2" class="answerThree" value="D">Beijing</input>
+        <br />
+      </ul>
+       <br>
+      
+      <ul>
+      <h3> 4.  Yerevan, one of the world's oldest continuously inhabited cities, is the capital of what country? </h3 >
+        <input type="radio" name="question3" class="answerFour" value="A">Azerbaijan</input>
+        <br />
+        <input type="radio" name="question3" class="answerFour" value="B">Kazakhstan</input>
+        <br />
+        <input type="radio" name="question3" class="answerFour" value="C">Armenia</input>
+        <br />
+        <input type="radio" name="question3" class="answerFour" value="D">Georgia</input>
+        <br />
+     </ul>
+      <br>
+
+      <ul>
+        <h3> 5.  What is the largest lake in Africa </h3 >
+        <input type="radio" name="question4" class="answerFive" value="A">Lake Victoria</input>
+        <br />
+        <input type="radio" name="question4" class="answerFive" value="B">Lake Chad</input>
+        <br />
+        <input type="radio" name="question4" class="answerFive" value="C">Lake Albert</input>
+        <br />
+        <input type="radio" name="question4" class="answerFive" value="D">Lake Nyasa</input>
+        <br />
+      </ul>
+     </form>
+  </div>
+  
+  <button id="done">Done</button>
+
+  <div id="results">  
+    <h3>View Your Trivia Results Below: </h3>
+    <br>
+    <h2>Correct Answers:  
+    <div id="correct-count"></div></h2>
+    <br>
+    <h2>Incorrect Answers:  
+    <div id="incorrect-count"></div></h2>
+    <br>
+  </div>
+
+
+
+
+</body>
+</html>
