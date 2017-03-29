@@ -87,7 +87,7 @@ var incorrectAnswers = 0;
         correctAnswers++;
       }else if ($(".answerFive:checked").val() == null) {
         unAnswered++;
-      }else if ($(".answerFive:checked").val() != "B") {
+      }else if ($(".answerFive:checked").val() != "A") {
         incorrectAnswers++;
       }
     } 
