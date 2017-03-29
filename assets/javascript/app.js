@@ -59,7 +59,6 @@ var incorrectAnswers = 0;
       if ($(".answerTwo:checked").val() == "C") {
         correctAnswers++;
       }else if ($(".answerTwo:checked").val() == null) {
-        unAnswered++;
       }else if ($(".answerTwo:checked").val() != "C") {
         incorrectAnswers++;
       }
@@ -68,7 +67,6 @@ var incorrectAnswers = 0;
       if ($(".answerThree:checked").val() == "D") {
         correctAnswers++;
       }else if ($(".answerThree:checked").val() == null) {
-        unAnswered++;
       }else if ($(".answerThree:checked").val() != "D") {
         incorrectAnswers++;
       }
@@ -77,8 +75,7 @@ var incorrectAnswers = 0;
       if ($(".answerFour:checked").val() == "C") {
         correctAnswers++;
       }else if ($(".answerFour:checked").val() == null) {
-        unAnswered++;
-      }else if ($(".answerFour:checked").val() != "D") {
+      }else if ($(".answerFour:checked").val() != "C") {
         incorrectAnswers++;
       }
     }
@@ -86,7 +83,6 @@ var incorrectAnswers = 0;
       if ($(".answerFive:checked").val() == "A") {
         correctAnswers++;
       }else if ($(".answerFive:checked").val() == null) {
-        unAnswered++;
       }else if ($(".answerFive:checked").val() != "A") {
         incorrectAnswers++;
       }
